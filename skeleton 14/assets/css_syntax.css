@@ -1,0 +1,33 @@
+body {
+    background-color: #FEFFF1;
+    font-family: Arial, sans-serif;
+}
+
+h1 {font-size: 38px;}
+
+h2 {
+    font-size:  32px;
+}
+
+ul.ingredients-list {
+    list-style: square inside;
+}
+
+ol {
+    list-style: upper-roman inside;
+}
+
+header > img {
+    width: 100px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div#_review {
+    background-color: skyblue;
+    font-size:  18px;
+    font-weight:bold
+}
