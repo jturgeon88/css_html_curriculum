@@ -1,1 +1,25 @@
 /* PHASE 3: Layout */
+
+.container {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.container-sidebar {
+  width: 200px;
+  padding: 20px;
+  /*padding-right: 19px;        not entirely sure why? I guess to account for 1px border?*/
+  min-height: 200px;
+  border-right: 1px solid #ccc;
+}
+
+.container-main {
+  width: 620px;
+  padding: 20px;
+  min-height: 200px;
+}
+
