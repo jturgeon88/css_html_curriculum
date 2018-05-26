@@ -80,3 +80,9 @@
 .language-nav li:first-child {
 	font-weight: bold;
 }
+
+@media all and (max-width: 1000px) {
+  .language-nav {
+  	display: none;
+  }
+}
